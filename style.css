@@ -5,10 +5,23 @@
     font-family: 'Raleway', sans-serif;
 }
 
-h1
+h1, h2
 {
     font-size: large;
 }
+h3
+{
+	font-size: small;
+}
+p
+{
+	font-size: 15px;
+}
+#gras/*Pour mettre certains mots en gras*/
+{
+	font-weight: bold;
+}
+
 nav li
 {
 	list-style: none;
@@ -23,7 +36,7 @@ li
 }
 nav a
 {
-	text-decoration: none;
+    text-decoration: none;
 }
 #entete /*menu + logo*/
 {
@@ -47,7 +60,6 @@ nav a
 	align-items: center;
 	border-bottom-left-radius: 10px;
 	border-top-left-radius: 10px;
-	
 }
 #localisation
 {
@@ -208,4 +220,128 @@ nav a
 	justify-content: center;
 	background: white;
 	margin-right: 10px;
+}
+article
+{
+	width: 60%;
+	background: #F2F2F2;
+	display: flex;
+	border-radius: 15px;
+}
+#bloc_article
+{
+	width: 92%;
+	margin: auto;
+}
+#hebergements
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	
+}
+#hebergement1
+{
+	background: white;
+	width: 175px;
+	height: 153px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+
+}
+
+#image1
+{
+	background-image: url(marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+	background-position: center;
+	width: 165px;
+	height: 83px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 3px;
+}
+#image2
+{
+	background-image: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+	background-position: center;
+	width: 165px;
+	height: 83px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 3px;
+}
+#image3
+{
+	background-image: url(reisetopia-B8WIgxA_PFU-unsplash.jpg);
+	background-position: center;
+	width: 165px;
+	height: 83px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 3px;
+}
+#image4
+{
+	background-image: url(annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+	background-position: center;
+	width: 165px;
+	height: 83px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 3px;
+}
+#image5
+{
+	background-image: url(nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+	background-position: center;
+	width: 165px;
+	height: 83px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 3px;
+}
+#image6
+{
+	background-image: url(febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+	background-position: center;
+	width: 165px;
+	height: 83px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 3px;
+}
+#block
+{
+	padding-left: 15px;
+	line-height: 4px;
+}
+#star1/*Les etoiles de couleur bleu*/ 
+{
+	color: #0065FC;
+	font-size: xx-small;
+}
+#star2/*Les etoiles de couleur grise*/
+{
+	color: #F2F2F2;
+	font-size: xx-small;
 }
