@@ -3,3 +3,24 @@
 	width: 70%;
 	margin: auto;
 }
+nav li
+{
+	list-style: none;
+}
+nav ul
+{
+	display: flex;
+}
+li
+{
+	margin-right: 40px;
+}
+nav a
+{
+	text-decoration: none;
+}
+#entete /*menu + logo*/
+{
+	display: flex;
+	justify-content: space-between;
+}
