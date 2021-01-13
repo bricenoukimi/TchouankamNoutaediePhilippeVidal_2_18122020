@@ -20,6 +20,37 @@
                     </ul>
                 </nav>
             </div>
+            <div>
+                <form method="POST" action="traitement.php">
+                    <h1>Trouvez votre hebergement pour des vacances de reve</h1>
+                    <p>En plein centre ville ou en pleine nature</p>
+                    <div id="forme1"> <!--Bouton de recherche-->
+                        <p><i class="fas fa-map-marker-alt" id="zone"></i></p>
+                        <p><input type="search" value="  Marseille, France" name="localisation" id="localisation"/></p>
+                        <p><input type="submit" name="Recherche" id="recherche" value="Recherche"/></p>
+                    </div>
+                    <div id="forme2"> <!--Les filtres-->
+                        <p id="filtre">Filtre</p>
+                        <div id="filtre1">
+                            <div><i class="fas fa-money-bill-wave"id="icone1"></i></div>
+                            <div><input type="search" value="Économique" name="economique" id="economique"/></div>
+                        </div>
+                        <div id="filtre2">
+                            <div><i class="fas fa-child" id="icone2"></i></div>
+                            <div><input type="search" value="Famial" name="famial" id="famial"/></div>
+                        </div>
+                        <div id="filtre3">
+                            <div><i class="fas fa-heart"id="icone3"></i></div>
+                            <div><input type="search" value="Romantique" name="romantique" id="romantique"/></div>
+                        </div>
+                        <div id="filtre4">
+                            <div><i class="fas fa-dog"id="icone4"></i></div>
+                            <div><input type="search" value="Animaux autorisés" name="animaux-autorises" id="animaux-autorises"/></div>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
             <section>
                 <article>
 
