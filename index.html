@@ -4,7 +4,11 @@
         <meta charset="utf-8"/>
 	    <title>Projet 2</title>
 	    <link rel="stylesheet" type="text/css" href="style.css"/>
-	    <link rel="stylesheet" type="text/css" href="file:///C:/Users/vidal/OneDrive/Desktop/Pratique%20de%20projet%202/fontawesome-free-5.15.1-web/css/all.css"/> <!--Lien pour insérer les icones-->
+        <link rel="stylesheet" type="text/css" href="file:///C:/Users/vidal/OneDrive/Desktop/Pratique%20de%20projet%202/fontawesome-free-5.15.1-web/css/all.css"/> <!--Lien pour insérer les icones-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
+
+
     </head>
     <body>
         <div id="bloc_page">
@@ -23,7 +27,7 @@
             <div>
                 <form method="POST" action="traitement.php">
                     <h1>Trouvez votre hebergement pour des vacances de reve</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
+                    <p id="p1">En plein centre ville ou en pleine nature</p>
                     <div id="forme1"> <!--Bouton de recherche-->
                         <p><i class="fas fa-map-marker-alt" id="zone"></i></p>
                         <p><input type="search" value="  Marseille, France" name="localisation" id="localisation"/></p>
@@ -48,8 +52,12 @@
                             <div><input type="search" value="Animaux autorisés" name="animaux-autorises" id="animaux-autorises"/></div>
                         </div>
                     </div>
-                    
                 </form>
+                <div id="info"><!--information supplementaire-->
+					<div><i class="fas fa-info" id="logoinfo"></i></div>
+					<p>Plus de 500 logements sont disponibles dans cette ville</p>
+				</div>
+
             </div>
             <section>
                 <article>

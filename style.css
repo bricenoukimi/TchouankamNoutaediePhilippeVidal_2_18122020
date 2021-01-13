@@ -1,7 +1,13 @@
 #bloc_page
 {
 	width: 70%;
-	margin: auto;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1
+{
+    font-size: large;
 }
 nav li
 {
@@ -85,7 +91,7 @@ nav a
 #economique
 {
 	height: 30px;
-	width: 130px;
+	width: 140px;
 	border: none;
 	border-top: 2px #f2f2f2 solid;
 	border-bottom: 2px #f2f2f2 solid;
@@ -113,7 +119,7 @@ nav a
 #famial
 {
 	height: 30px;
-	width: 90px;
+	width: 100px;
 	border: none;
 	border-top: 2px #f2f2f2 solid;
 	border-bottom: 2px #f2f2f2 solid;
@@ -169,7 +175,7 @@ nav a
 #animaux-autorises
 {
 	height: 30px;
-	width: 167px;
+	width: 175px;
 	border: none;
 	border-top: 2px #f2f2f2 solid;
 	border-bottom: 2px #f2f2f2 solid;
@@ -183,4 +189,23 @@ nav a
 {
 	display: flex;
 	align-items: center;
+}
+#info
+{
+	display: flex;
+	align-items: center;
+}
+#logoinfo
+{
+	height: 19px;
+	width: 18px;
+	font-size: xx-small;
+	color: #0065FC;
+	border-radius: 100%;
+	border: 1px #f2f2f2 solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	margin-right: 10px;
 }
