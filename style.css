@@ -4,7 +4,10 @@
     margin: auto;
     font-family: 'Raleway', sans-serif;
 }
-
+#logo
+{
+	width: 80px;
+}
 h1, h2
 {
     font-size: large;
@@ -17,7 +20,7 @@ p
 {
 	font-size: 15px;
 }
-#gras/*Pour mettre certains mots en gras*/
+.gras/*Pour mettre certains mots en gras*/
 {
 	font-weight: bold;
 }
@@ -242,7 +245,7 @@ article
 	
 	
 }
-#hebergement1
+.hebergement1
 {
 	background: white;
 	width: 175px;
@@ -330,17 +333,17 @@ article
 	position: relative;
 	top: 3px;
 }
-#block
+.block
 {
 	padding-left: 15px;
 	line-height: 4px;
 }
-#star1/*Les etoiles de couleur bleu*/ 
+.star1 /*Les etoiles de couleur bleu*/ 
 {
 	color: #0065FC;
 	font-size: xx-small;
 }
-#star2/*Les etoiles de couleur grise*/
+.star2 /*Les etoiles de couleur grise*/
 {
 	color: #F2F2F2;
 	font-size: xx-small;

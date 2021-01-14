@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8"/>
 	    <title>Projet 2</title>
@@ -7,14 +7,12 @@
         <link rel="stylesheet" type="text/css" href="file:///C:/Users/vidal/OneDrive/Desktop/Pratique%20de%20projet%202/fontawesome-free-5.15.1-web/css/all.css"/> <!--Lien pour insérer les icones-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap" rel="stylesheet">
-
-
     </head>
     <body>
         <div id="bloc_page">
             <div id="entete"> <!--logo+menu de navigation-->
                 <header>
-                    <img src="Reservia@3x.png" alt="logo du site" width="80px"/>
+                    <img src="Reservia@3x.png" alt="logo du site" id="logo"/>
                 </header>
                 <nav>
                     <ul>
@@ -36,7 +34,7 @@
                     <div id="forme2"> <!--Les filtres-->
                         <p id="gras">Filtre</p>
                         <div id="filtre1">
-                            <div><i class="fas fa-money-bill-wave"id="icone1"></i></div>
+                            <div><i class="fas fa-money-bill-wave" id="icone1"></i></div>
                             <div><input type="search" value="Économique" name="economique" id="economique"/></div>
                         </div>
                         <div id="filtre2">
@@ -44,11 +42,11 @@
                             <div><input type="search" value="Famial" name="famial" id="famial"/></div>
                         </div>
                         <div id="filtre3">
-                            <div><i class="fas fa-heart"id="icone3"></i></div>
+                            <div><i class="fas fa-heart" id="icone3"></i></div>
                             <div><input type="search" value="Romantique" name="romantique" id="romantique"/></div>
                         </div>
                         <div id="filtre4">
-                            <div><i class="fas fa-dog"id="icone4"></i></div>
+                            <div><i class="fas fa-dog" id="icone4"></i></div>
                             <div><input type="search" value="Animaux autorisés" name="animaux-autorises" id="animaux-autorises"/></div>
                         </div>
                     </div>
@@ -59,67 +57,67 @@
 				</div>
 
             </div>
-            <section>
+            <div id="selection">
                 <article>
                     <div id="bloc_article">
                         <div id="title-article"><h2>Hebergement a Marseille</h2></div>
                         <div id="hebergements"><!--Conteneur qui rassemble les hebergements a Marseille-->
-                            <div id="hebergement1">
+                            <div class="hebergement1">
                                 <div id="image1"></div><!--Les images des hebergement sont inserees en background donc du cote css-->
-                                <div id="block">
+                                <div class="block">
                                     <h3>Auberge la cannebiere</h3>
-                                    <p>Nuit a partir de <span id="gras">25€</span></p>
-                                    <p><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="far fa-star" id="star2"></i></p>
+                                    <p>Nuit a partir de <span class="gras">25€</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
                                 </div>
                             </div>
-                            <div id="hebergement1">
+                            <div class="hebergement1">
                                 <div id="image2"></div>
-                                <div id="block">
+                                <div class="block">
                                     <h3>Hôtel du port</h3>
-                                    <p>Nuit a partir de 52<span id="gras">€</span></p>
-                                    <p><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="far fa-star" id="star2"></i></p>
+                                    <p>Nuit a partir de 52<span class="gras">€</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
                                 </div>
                             </div>
-                            <div id="hebergement1">
+                            <div class="hebergement1">
                                 <div id="image3"></div>
-                                <div id="block">
+                                <div class="block">
                                     <h3>Hôtel les mouettes</h3>
-                                    <p>Nuit a partir de 62<span id="gras">€</span></p>
-                                    <p><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="far fa-star" id="star2"></i></p>
+                                    <p>Nuit a partir de 62<span class="gras">€</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
                                 </div>
                             </div>
-                            <div id="hebergement1">
+                            <div class="hebergement1">
                                 <div id="image4"></div>
-                                <div id="block">
+                                <div class="block">
                                     <h3>Hôtel de la mer</h3>
-                                    <p>Nuit a partir de 46<span id="gras">€</span></p>
-                                    <p><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="far fa-star" id="star2"></i><i class="far fa-star" id="star2"></i></p>
+                                    <p>Nuit a partir de 46<span class="gras">€</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i><i class="far fa-star"></i></span></p>
                                 </div>
                             </div>
-                            <div id="hebergement1">
+                            <div class="hebergement1">
                                 <div id="image5"></div>
-                                <div id="block">
+                                <div class="block">
                                     <h3>Auberge le panier</h3>
-                                    <p>Nuit a partir de<span id="gras">23€</span></p>
-                                    <p><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="far fa-star" id="star2"></i></p>
+                                    <p>Nuit a partir de<span class="gras">23€</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
                                 </div>
                             </div>
-                            <div id="hebergement1">
+                            <div class="hebergement1">
                                 <div id="image6"></div>
-                                <div id="block">
+                                <div class="block">
                                     <h3>Hôtel chez amina</h3>
-                                    <p>Nuit a partir de 96<span id="gras">€</span></p>
-                                    <p><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="fas fa-star" id="star1"></i><i class="far fa-star" id="star2"></i></p>
+                                    <p>Nuit a partir de 96<span class="gras">€</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
                                 </div>
                             </div>
                         </div>
-                        <div><p id="gras">Afficher plus</p></div>
+                        <div><p class="gras">Afficher plus</p></div>
                     </div>
                 </article>
                 <aside>
 
                 </aside>
-            </section>
+            </div>
         </div>
     </body>
 </html>
