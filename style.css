@@ -18,7 +18,7 @@ h3
 }
 p
 {
-	font-size: 15px;
+	font-size: 13px;
 }
 .gras/*Pour mettre certains mots en gras*/
 {
@@ -226,14 +226,14 @@ nav a
 }
 article
 {
-	width: 60%;
+	width: 63%;
 	background: #F2F2F2;
 	display: flex;
 	border-radius: 15px;
 }
 #bloc_article
 {
-	width: 92%;
+	width: 91%;
 	margin: auto;
 }
 #hebergements
@@ -266,7 +266,7 @@ article
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	position: relative;
-	top: 3px;
+	top: 4px;
 }
 #image2
 {
@@ -279,7 +279,7 @@ article
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	position: relative;
-	top: 3px;
+	top: 4px;
 }
 #image3
 {
@@ -292,7 +292,7 @@ article
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	position: relative;
-	top: 3px;
+	top: 4px;
 }
 #image4
 {
@@ -305,7 +305,7 @@ article
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	position: relative;
-	top: 3px;
+	top: 4px;
 }
 #image5
 {
@@ -318,7 +318,7 @@ article
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	position: relative;
-	top: 3px;
+	top: 4px;
 }
 #image6
 {
@@ -331,7 +331,7 @@ article
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	position: relative;
-	top: 3px;
+	top: 4px;
 }
 .block
 {
@@ -348,3 +348,89 @@ article
 	color: #F2F2F2;
 	font-size: xx-small;
 }
+aside
+{
+	width: 31%;
+	background: #F2F2F2;
+	display: flex;
+	border-radius: 15px;
+	justify-content: space-around;
+}
+#bloc_aside
+{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+#selection
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#photo1/*photos des hebergements contenus dans l aside*/
+{
+	background-image: url(images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+	object-fit: cover;
+	width: 93px;
+	height: 95px;
+	background-size: cover;
+	background-position: center;
+	margin-right: 30px;
+	position: relative;
+	left: 5px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#photo2
+{
+	background-image: url(images/aw-creative-VGs8z60yT2c-unsplash.jpg);
+	object-fit: cover;
+	width: 93px;
+	height: 95px;
+	background-size: cover;
+	background-position: center;
+	margin-right: 30px;
+	padding-left: 32px;
+	position: relative;
+	left: 5px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+#photo3
+{
+	background-image: url(images/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+	object-fit: cover;
+	width: 93px;
+	height: 95px;
+	background-size: cover;
+	background-position: center;
+	margin-right: 30px;
+	position: relative;
+	left: 5px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#header-aside/* entête de l'aside, titre plus logo*/
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.box /* conteneur: photo+text+etoile*/
+{
+	display: flex;
+	background: white;
+	margin-bottom: 20px;
+	align-items: center;
+	width: 263px;
+	border-radius: 15px;
+}
+.espace /*reduction de la haute en les textes*/
+{
+	display: block;
+	margin-top: -0.7em;
+}
+
+
