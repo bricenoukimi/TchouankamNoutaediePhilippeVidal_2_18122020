@@ -42,7 +42,13 @@ li
 }
 nav a
 {
-    text-decoration: none;
+	text-decoration: none;
+	color: #0065FC;
+}
+a
+{
+	color: none;
+	text-decoration: none;
 }
 #entete /*menu + logo*/
 {
@@ -208,6 +214,14 @@ nav a
 {
 	display: flex;
 	align-items: center;
+}
+#economique:hover, #famial:hover, #animaux-autorises:hover, #romantique:hover/*changer l'apparence des filtres au survol de la sourie*/
+{
+	background: #0065FC;
+}
+a:focus
+{
+	color: red;
 }
 #info
 {
