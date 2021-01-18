@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="with=device-width, initial-scale=1"/>
 	    <title>Projet 2</title>
 	    <link rel="stylesheet" type="text/css" href="style.css"/>
         <link rel="stylesheet" type="text/css" href="file:///C:/Users/vidal/OneDrive/Desktop/Pratique%20de%20projet%202/fontawesome-free-5.15.1-web/css/all.css"/> <!--Lien pour insérer les icones-->
@@ -32,7 +33,7 @@
                         <p><input type="submit" name="Recherche" id="recherche" value="Recherche"/></p>
                     </div>
                     <div id="forme2"> <!--Les filtres-->
-                        <p class="gras">Filtres</p>
+                        <div id="filtres"><p class="gras">Filtres</p></div>
                         <div id="filtre1">
                             <div><i class="fas fa-money-bill-wave" id="icone1"></i></div>
                             <div><input type="search" value="Économique" name="economique" id="economique"/></div>
@@ -187,17 +188,18 @@
                 <p>Concditions générales de vente</p>
                 <p>Données et confidentialit.</p>
             </div>
-            <div>
+            <div id="gauche">
                 <h3>Nos hébergements</h3>
                 <p>Charte qualité</p>
                 <p>Soumettre votre hôtel</p>
             </div>
-            <div>
+            <div id="gauche2">
                 <h3>Assistance</h3>
                 <p>Centre d'aide</p>
                 <p>Nous contacter</p>
             </div>
             <div>
+                <br/>
             </div>
         </footer>
     </body>
