@@ -4,7 +4,7 @@ body
 }
 #bloc_page
 {
-	width: 65%;
+	width: 75%;
     margin: auto;
 }
 #logo
@@ -23,38 +23,56 @@ p
 {
 	font-size: 13px;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 .gras/*Pour mettre certains mots en gras*/
 {
 	font-weight: bold;
 }
-
-nav li
-{
-	list-style: none;
-}
-nav ul
+#entete /*menu + logo*/
 {
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
-li
+#oui:hover
 {
-	margin-right: 40px;
+	border-top: 2px  #0065FC solid;
 }
 nav a
 {
 	text-decoration: none;
 	color: #0065FC;
+	font-weight: bold;
 }
-a
+.acti:hover, .sincr:hover, #mrd:hover
 {
-	color: none;
-	text-decoration: none;
+	border-top: 2px  #0065FC solid;
+	padding-top: 15px;
 }
-#entete /*menu + logo*/
+nav
 {
 	display: flex;
-	justify-content: space-between;
 }
+
+#hebe
+{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#nov
+{
+	display: flex;
+}
+#mrd, .acti, .sincr
+{
+	margin-right: 30px;
+}
+
 #forme1/*bouton de recherche*/
 {
     display: flex;
@@ -219,10 +237,6 @@ a
 {
 	background: #0065FC;
 }
-a:focus
-{
-	color: red;
-}
 #info
 {
 	display: flex;
@@ -260,6 +274,7 @@ article
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	width: 100%;
 	
 	
 }
@@ -271,6 +286,7 @@ article
 	border-radius: 15px;
 	margin-bottom: 20px;
 	box-shadow: 0px 1px 3px rgba(68, 35, 35, 0.3);
+	min-width: 30%;
 
 }
 
@@ -278,7 +294,7 @@ article
 {
 	background-image: url(marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 	background-position: center;
-	width: 165px;
+	width: 95%;
 	height: 83px;
 	background-size: 100%;
 	margin: auto;
@@ -291,7 +307,7 @@ article
 {
 	background-image: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
 	background-position: center;
-	width: 165px;
+	width: 95%;
 	height: 83px;
 	background-size: 100%;
 	margin: auto;
@@ -304,7 +320,7 @@ article
 {
 	background-image: url(reisetopia-B8WIgxA_PFU-unsplash.jpg);
 	background-position: center;
-	width: 165px;
+	width: 95%;
 	height: 83px;
 	background-size: 100%;
 	margin: auto;
@@ -317,7 +333,7 @@ article
 {
 	background-image: url(annie-spratt-Eg1qcIitAuA-unsplash.jpg);
 	background-position: center;
-	width: 165px;
+	width: 95%;
 	height: 83px;
 	background-size: 100%;
 	margin: auto;
@@ -330,7 +346,7 @@ article
 {
 	background-image: url(nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
 	background-position: center;
-	width: 165px;
+	width: 95%;
 	height: 83px;
 	background-size: 100%;
 	margin: auto;
@@ -343,7 +359,7 @@ article
 {
 	background-image: url(febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 	background-position: center;
-	width: 165px;
+	width: 95%;
 	height: 83px;
 	background-size: 100%;
 	margin: auto;
@@ -364,7 +380,7 @@ article
 }
 .star2 /*Les etoiles de couleur grise*/
 {
-	color: #F2F2F2;
+	color: #cfcccc;
 	font-size: xx-small;
 }
 aside
@@ -409,7 +425,6 @@ aside
 	background-size: cover;
 	background-position: center;
 	margin-right: 30px;
-	padding-left: 32px;
 	position: relative;
 	left: 5px;
 	border-bottom-left-radius: 10px;
@@ -454,7 +469,7 @@ aside
 #picture1/*numerotation des images de la partie Activés à Marseille*/
 {
 	background-image: url(images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
-	width: 210px;
+	width: auto;
 	height: 270px;
 	background-size: cover;
 	object-fit: cover;
@@ -465,8 +480,8 @@ aside
 #picture2-1
 {
 	background-image: url(images/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-	width: 210px;
-	height: 115px;
+	width: auto;
+	height: 105px;
 	background-size: cover;
 	object-fit: cover;
 	background-position:center;
@@ -476,8 +491,8 @@ aside
 #picture2-2
 {
 	background-image: url(images/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
-	width: 210px;
-	height: 85px;
+	width: auto;
+	height: 75px;
 	background-size: cover;
 	object-fit: cover;
 	background-position:top;
@@ -487,7 +502,7 @@ aside
 #picture3
 {
 	background-image: url(images/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-	width: 210px;
+	width: auto;
 	height: 270px;
 	background-size: cover;
 	object-fit: cover;
@@ -498,8 +513,8 @@ aside
 #picture4-1
 {
 	background-image: url(images/florian-wehde-xW9e8gdotxI-unsplash.jpg);
-	width: 210px;
-	height: 100px;
+	width: auto;
+	height: 90px;
 	background-size: cover;
 	object-fit: cover;
 	background-position:center;
@@ -509,8 +524,8 @@ aside
 #picture4-2
 {
 	background-image: url(images/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
-	width: 210px;
-	height: 100px;
+	width: auto;
+	height: 90px;
 	background-size: cover;
 	object-fit: cover;
 	background-position:center;
@@ -533,6 +548,10 @@ aside
 	box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
 	border-radius: 10px;
 }
+.grand-block, .conteneur2
+{
+	min-width: 20%;
+}
 .petit-block1
 {
 	box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
@@ -553,7 +572,7 @@ footer
 	background: #f2f2f2;
 	display: flex;
 	justify-content: space-around;
-	width: 70%;
+	width: 80%;
 	height: 170px;
 	margin: auto;
 	align-items: center;
@@ -592,19 +611,17 @@ footer
 	#recherche, #forme1{
 		width: auto;
 	}
+	
+	
 	article
 	{
 		background: white;
-		
-
 	}
 	#bloc_article{
 		width: 100%;
 	}
 	.hebergement1{
 		width: 100%;
-		
-		
 	}
 	#image1, #image2, #image3, #image4, #image5, #image6
 	{
@@ -630,18 +647,6 @@ footer
 	#filtres{
 		width: 100%;
 	}
-	
-	nav ul{
-		display: flex;
-		flex-direction: column;
-		display: flex;
-		justify-content: space-around;
-		width: auto;
-	}
-	#entete{
-		display: flex;
-		justify-content: space-between;
-	}
 	#conteneur{
 		display: flex;
 		flex-direction: column;
@@ -659,15 +664,41 @@ footer
 		height: auto;
 		width: 100%;
 	}
-	#gauche{
+	#gauche1{
 		position: relative;
 		right: 30px;
-		l
 	}
 	#gauche2{
 		position: relative;
 		right: 50px;
 
+	}
+	#entete
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.acti
+	{
+		padding-right: 25%;
+		padding-inline-start: 30px;
+		border-bottom: #f2f2f2 3px solid;
+	}
+	
+	#hebe
+	{
+		padding-inline-start: 40px;
+		padding-bottom: 10px;
+		border-bottom: #0065FC 3px solid;
+	}
+	.sincr
+	{
+		position: relative;
+		bottom: 53px;
+		right: 30%;
+		
+		
 	}
 	
 }

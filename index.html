@@ -5,7 +5,7 @@
         <meta name="viewport" content="with=device-width, initial-scale=1"/>
 	    <title>Projet 2</title>
 	    <link rel="stylesheet" type="text/css" href="style.css"/>
-        <link rel="stylesheet" type="text/css" href="file:///C:/Users/vidal/OneDrive/Desktop/Pratique%20de%20projet%202/fontawesome-free-5.15.1-web/css/all.css"/> <!--Lien pour insérer les icones-->
+        <link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.1-web/css/all.css"/> <!--Lien pour insérer les icones-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap" rel="stylesheet">
     </head>
@@ -13,14 +13,12 @@
         <div id="bloc_page">
             <div id="entete"> <!--logo+menu de navigation-->
                 <header>
-                    <img src="Reservia@3x.png" alt="logo du site" id="logo"/>
+                    <p><img src="Reservia@3x.png" alt="logo du site" id="logo"/></p>
                 </header>
                 <nav>
-                    <ul>
-                        <li><a href="#title-article">Hébergement</a></li>
-                        <li><a href="#activites">Activités</a></li>
-                        <li><a href="#">S'incrire</a></li>
-                    </ul>
+                    <p id="hebe"><a href="#title-article" id="mrd">Hébergement</a></p>
+                    <p class="acti"><a href="#activites">Activités</a></p>
+                        <p class="sincr"><a href="#">S'incrire</a></p>
                 </nav>
             </div>
             <div>
@@ -63,53 +61,53 @@
                     <div id="bloc_article">
                         <div id="title-article"><h2>Hebergement a Marseille</h2></div>
                         <div id="hebergements"><!--Conteneur qui rassemble les hebergements a Marseille-->
-                            <div class="hebergement1">
+                            <div class="hebergement1"><a href="#">
                                 <div id="image1"></div><!--Les images des hebergement sont inserees en background donc du cote css-->
                                 <div class="block">
                                     <h3>Auberge la cannebiere</h3>
                                     <p>Nuit a partir de <span class="gras">25€</span></p>
                                     <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
-                                </div>
+                                </div></a>
                             </div>
-                            <div class="hebergement1">
+                            <div class="hebergement1"><a href="#">
                                 <div id="image2"></div>
                                 <div class="block">
                                     <h3>Hôtel du port</h3>
                                     <p>Nuit a partir de 52<span class="gras">€</span></p>
                                     <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
-                                </div>
+                                </div></a>
                             </div>
-                            <div class="hebergement1">
+                            <div class="hebergement1"><a href="#">
                                 <div id="image3"></div>
                                 <div class="block">
                                     <h3>Hôtel les mouettes</h3>
                                     <p>Nuit a partir de 62<span class="gras">€</span></p>
                                     <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
-                                </div>
+                                </div></a>
                             </div>
-                            <div class="hebergement1">
+                            <div class="hebergement1"><a href="#">
                                 <div id="image4"></div>
                                 <div class="block">
                                     <h3>Hôtel de la mer</h3>
                                     <p>Nuit a partir de 46<span class="gras">€</span></p>
                                     <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i><i class="far fa-star"></i></span></p>
-                                </div>
+                                </div></a>
                             </div>
-                            <div class="hebergement1">
+                            <div class="hebergement1"><a href="#">
                                 <div id="image5"></div>
                                 <div class="block">
                                     <h3>Auberge le panier</h3>
                                     <p>Nuit a partir de<span class="gras">23€</span></p>
                                     <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
-                                </div>
+                                </div></a>
                             </div>
-                            <div class="hebergement1">
+                            <div class="hebergement1"><a href="#">
                                 <div id="image6"></div>
                                 <div class="block">
                                     <h3>Hôtel chez amina</h3>
                                     <p>Nuit a partir de 96<span class="gras">€</span></p>
                                     <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
-                                </div>
+                                </div></a>
                             </div>
                         </div>
                         <div><p class="gras">Afficher plus</p></div>
@@ -122,61 +120,61 @@
                             <p><i class="fas fa-chart-line"></i></p>
                         </div>
                         <div class="box">
-                            <div id="photo1"></div>
-                            <div>
+                            <a href="#"><div id="photo1"></div></a>
+                            <div><a href="#">
                                 <h3>Hôtel le soleil du matin</h3>
-                                <p class="espace">Nuit a partir de 52<span class="gras">€</span></p>
+                                <p class="espace">Nuit a partir de 128<span class="gras">€</span></p>
                                 <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
-                            </div>
+                            </a></div>
                         </div>
                         <div class="box">
-                            <div id="photo2"></div>
-                            <div>
+                            <a href="#"><div id="photo2"></div></a>
+                            <div><a href="#">
                                 <h3>Au coeur de l'eau chambres d'hotes</h3>
-                                <p class="espace">Nuit a partir de 52<span class="gras">€</span></p>
-                                <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
-                            </div>
+                                <p class="espace">Nuit a partir de 71<span class="gras">€</span></p>
+                                <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
+                            </a></div>
                         </div>
                         <div class="box">
-                            <div id="photo3"></div>
-                            <div>
+                            <a href="#"><div id="photo3"></div></a>
+                            <div><a href="#">
                                 <h3>Hôtel tout bleu et blanc</h3>
-                                <p class="espace">Nuit a partir de 52<span class="gras">€</span></p>
-                                <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
-                            </div>
+                                <p class="espace">Nuit a partir de 68<span class="gras">€</span></p>
+                                <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
+                            </a></div>
                         </div>
                     </div>
                 </aside>
             </div><br/><br/>
         <h2 id="activites">Activités à Marseille</h2>
         <div id="conteneur"><!--conteneur contenant tous les blocks de cette section-->
-            <div class="grand-block">
+            <div class="grand-block"><a href="#">
                 <div id="picture1"></div><!--Les images des hebergement sont inserees en background donc du cote css-->
                 <div><p class="texte-conteneur">Vieux port</p></div>
-            </div>
+            </a></div>
             <div class="conteneur2"><!--ce block contient 2 petits blocks-->
-                <div class="petit-block1">
+                <div class="petit-block1"><a href="#">
                     <div id="picture2-1"></div>
                     <div><p class="texte-conteneur">Fort de pomègues</p></div>
-                </div>
-                <div class="petit-block2">
+                </a></div>
+                <div class="petit-block2"><a href="#">
                     <div id="picture2-2"></div>
                     <div><p class="texte-conteneur">Îles du Frioul</p></div>
-                </div>
+                </a></div>
             </div>
-            <div class="grand-block">
+            <div class="grand-block"><a href="#">
                 <div id="picture3"></div>
                 <div><p class="texte-conteneur">Parc National des Calanques</p></div>
-            </div>
+            </a></div>
             <div class="conteneur2"><!--ce block contient 2 petits blocks-->
-                <div class="petit-block">
+                <div class="petit-block"><a href="#">
                     <div id="picture4-1"></div>
                     <div><p class="texte-conteneur">Notre-dame-de-la-Garde</p></div>
-                </div>
-                <div class="petit-block">
+                </a></div>
+                <div class="petit-block"><a href="#">
                     <div id="picture4-2"></div>
                     <div><p class="texte-conteneur">Parc longchamp</p></div>
-                </div>
+                </a></div>
             </div>
 
         </div>
@@ -188,7 +186,7 @@
                 <p>Concditions générales de vente</p>
                 <p>Données et confidentialit.</p>
             </div>
-            <div id="gauche"><!--id crée pour bien aligner les blocks-->
+            <div id="gauche1"><!--id crée pour bien aligner les blocks-->
                 <h3>Nos hébergements</h3>
                 <p>Charte qualité</p>
                 <p>Soumettre votre hôtel</p>
