@@ -4,24 +4,24 @@ body
 }
 #bloc_page
 {
-	width: 75%;
+	width: 80%;
     margin: auto;
 }
 #logo
 {
-	width: 80px;
+	width: 90px;
 }
 h1, h2
 {
-    font-size: large;
+    font-size: larger;
 }
 h3
 {
-	font-size: small;
+	font-size: smaller;
 }
 p
 {
-	font-size: 13px;
+	font-size: 15px;
 }
 a{
 	text-decoration: none;
@@ -70,7 +70,7 @@ nav
 }
 #mrd, .acti, .sincr
 {
-	margin-right: 30px;
+	margin-right: 40px;
 }
 
 #forme1/*bouton de recherche*/
@@ -110,6 +110,10 @@ nav
 	width: 90px;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
+}
+#recherche2
+{
+	display: none;
 }
 #forme2/*Les filtres*/
 {
@@ -407,7 +411,7 @@ aside
 	background-image: url(images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
 	object-fit: cover;
 	width: 93px;
-	height: 95px;
+	height: 105px;
 	background-size: cover;
 	background-position: center;
 	margin-right: 30px;
@@ -421,7 +425,7 @@ aside
 	background-image: url(images/aw-creative-VGs8z60yT2c-unsplash.jpg);
 	object-fit: cover;
 	width: 93px;
-	height: 95px;
+	height: 105px;
 	background-size: cover;
 	background-position: center;
 	margin-right: 30px;
@@ -436,7 +440,7 @@ aside
 	background-image: url(images/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 	object-fit: cover;
 	width: 93px;
-	height: 95px;
+	height: 105px;
 	background-size: cover;
 	background-position: center;
 	margin-right: 30px;
@@ -572,7 +576,7 @@ footer
 	background: #f2f2f2;
 	display: flex;
 	justify-content: space-around;
-	width: 80%;
+	width: 85%;
 	height: 170px;
 	margin: auto;
 	align-items: center;
@@ -612,14 +616,12 @@ footer
 		width: auto;
 	}
 	
-	
 	article
 	{
 		background: white;
-	}
-	#bloc_article{
 		width: 100%;
 	}
+	
 	.hebergement1{
 		width: 100%;
 	}
@@ -629,14 +631,36 @@ footer
 	}
 	aside{
 		width: 100%;
-		padding-left: 30px;
-		padding-right: 30px;
 	}
 	#bloc_aside{
 		width: auto;
 		
 	}
-	
+	#bloc_article, #bloc_page
+	{
+		width: 100%;
+		margin: auto;
+	}
+	#recherche
+	{
+		display: none;
+	}
+	#recherche2
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #0065FC;
+	    color: white;
+	    border: none;
+	    height: 40px;
+	    width: 50px;
+	    border-radius: 10px;
+	}
+	#localisation
+	{
+		width: 200px;
+	}
 	#forme2{
 		display: flex;
 		flex-wrap: wrap;
@@ -677,12 +701,13 @@ footer
 	{
 		display: flex;
 		flex-wrap: wrap;
+		width: auto;
 	}
 	
 	.acti
 	{
-		padding-right: 25%;
-		padding-inline-start: 30px;
+		padding-right: 15%;
+		padding-inline-start: 45px;
 		border-bottom: #f2f2f2 3px solid;
 	}
 	
@@ -696,10 +721,11 @@ footer
 	{
 		position: relative;
 		bottom: 53px;
-		right: 30%;
+		right: 27%;
 		
 		
 	}
+	
 	
 }
 
