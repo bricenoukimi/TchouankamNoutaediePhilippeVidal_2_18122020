@@ -16,9 +16,11 @@
                     <p><img src="Reservia@3x.png" alt="logo du site" id="logo"/></p>
                 </header>
                 <nav>
-                    <p id="hebe"><a href="#title-article" id="mrd">Hébergement</a></p>
-                    <p class="acti"><a href="#activites">Activités</a></p>
-                        <p class="sincr"><a href="#">S'incrire</a></p>
+                    <div id="hebe">
+                        <div id="mrd"><a href="#title-article" >Hébergement</a></div>
+                        <div class="acti"><a href="#activites">Activités</a></div>
+                    </div>
+                    <div class="sincr"><a href="#">S'incrire</a></div>
                 </nav>
             </div>
             <div>
@@ -31,26 +33,18 @@
                         <p><input type="submit" name="Recherche" id="recherche" value="Recherche"/></p>
                         <p><i class="fas fa-search" id="recherche2"></i></p>
                     </div>
-                    <div id="forme2"> <!--Les filtres-->
-                        <div id="filtres"><p class="gras">Filtres</p></div>
-                        <div id="filtre1">
-                            <div><i class="fas fa-money-bill-wave" id="icone1"></i></div>
-                            <div><input type="search" value="Économique" name="economique" id="economique"/></div>
-                        </div>
-                        <div id="filtre2">
-                            <div><i class="fas fa-child" id="icone2"></i></div>
-                            <div><input type="search" value="Famial" name="famial" id="famial"/></div>
-                        </div>
-                        <div id="filtre3">
-                            <div><i class="fas fa-heart" id="icone3"></i></div>
-                            <div><input type="search" value="Romantique" name="romantique" id="romantique"/></div>
-                        </div>
-                        <div id="filtre4">
-                            <div><i class="fas fa-dog" id="icone4"></i></div>
-                            <div><input type="search" value="Animaux autorisés" name="animaux-autorises" id="animaux-autorises"/></div>
-                        </div>
-                    </div>
                 </form>
+                <div id="forme2"> <!--Les filtres-->
+                    <div id="filtres"><p class="gras">Filtres</p></div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-money-bill-wave" id="icone1"></i><span id="economique">Économique</span></li>
+                            <li><i class="fas fa-child" id="icone2"></i><span id="famial">Familial</span></li>
+                            <li><i class="fas fa-heart" id="icone3"></i><span id="romantique">Romantique</span></li>
+                            <li><i class="fas fa-dog" id="icone4"></i><span id="animaux-autorises">Animaux autorisés</span></li>
+                        </ul>
+                    </div>
+                </div>
                 <div id="info"><!--information supplementaire-->
 					<div><i class="fas fa-info" id="logoinfo"></i></div>
 					<p>Plus de 500 logements sont disponibles dans cette ville</p>

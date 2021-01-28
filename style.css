@@ -19,7 +19,7 @@ h3
 {
 	font-size: smaller;
 }
-p
+p, span
 {
 	font-size: 15px;
 }
@@ -37,10 +37,6 @@ a{
 	align-items: center;
 	justify-content: space-between;
 }
-#oui:hover
-{
-	border-top: 2px  #0065FC solid;
-}
 nav a
 {
 	text-decoration: none;
@@ -50,27 +46,32 @@ nav a
 .acti:hover, .sincr:hover, #mrd:hover
 {
 	border-top: 2px  #0065FC solid;
-	padding-top: 15px;
+	
 }
 nav
 {
 	display: flex;
 }
-
-#hebe
+ul
 {
 	display: flex;
-	flex-direction: row;
-
+	text-align: right;
+	flex-wrap: wrap;
 }
-
-#nov
+li
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+#hebe
 {
 	display: flex;
 }
 #mrd, .acti, .sincr
 {
 	margin-right: 40px;
+	padding-top: 10px;
 }
 
 #forme1/*bouton de recherche*/
@@ -111,131 +112,93 @@ nav
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
-#recherche2
+#recherche2/*icone de recherche qui sera affichée sur mobile*/
 {
 	display: none;
 }
 #forme2/*Les filtres*/
 {
 	display: flex;
+	align-items: center;
 }
-#icone1
+#filtres
+{
+	padding-bottom: 10px;
+}
+#icone1, #icone2, #icone3, #icone4
 {
     background: #DEEBFF;
-	height: 29px;
-	width: 28px;
-	font-size: x-small;
+	height: 32px;
+	width: 32px;
+	font-size: small;
 	color: #0065FC;
 	display: block;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 100%;
+	border-radius: 50%;
 	position: relative;
-	left: 27px;
+	left: 32px;
 }
 #economique
 {
 	height: 30px;
-	width: 140px;
-	border: none;
+	width: 120px;
 	border-top: 2px #f2f2f2 solid;
 	border-bottom: 2px #f2f2f2 solid;
 	border-right: 2px #f2f2f2 solid;
-	padding-left: 25px;
 	border-radius: 50px;
-	text-align: right;
 	font-weight: bold;
-	
-}
-#icone2
-{
-    background: #DEEBFF;
-	height: 29px;
-	width: 28px;
-	font-size: x-small;
-	color: #0065FC;
-	display: block;
-	display: flex;
 	align-items: center;
+	display: flex;
 	justify-content: center;
-	border-radius: 100%;
-	position: relative;
-	left: 27px;
+	padding-left: 25px;
 }
 #famial
 {
 	height: 30px;
 	width: 100px;
-	border: none;
 	border-top: 2px #f2f2f2 solid;
 	border-bottom: 2px #f2f2f2 solid;
 	border-right: 2px #f2f2f2 solid;
-	padding-left: 30px;
 	border-radius: 50px;
-	text-align: right;
 	font-weight: bold;
-}
-#icone3
-{
-    background: #DEEBFF;
-	height: 29px;
-	width: 28px;
-	font-size: x-small;
-	color: #0065FC;
-	display: block;
-	display: flex;
 	align-items: center;
+	display: flex;
 	justify-content: center;
-	border-radius: 100%;
-	position: relative;
-	left: 27px;
+	padding-left: 15px;
 }
 #romantique
 {
 	height: 30px;
 	width: 125px;
-	border: none;
 	border-top: 2px #f2f2f2 solid;
 	border-bottom: 2px #f2f2f2 solid;
 	border-right: 2px #f2f2f2 solid;
-	padding-left: 30px;
 	border-radius: 50px;
-	text-align: right;
 	font-weight: bold;
-}
-#icone4
-{
-    background: #DEEBFF;
-	height: 29px;
-	width: 28px;
-	font-size: x-small;
-	color: #0065FC;
-	display: block;
-	display: flex;
 	align-items: center;
+	display: flex;
 	justify-content: center;
-	border-radius: 100%;
-	position: relative;
-	left: 27px;
+	padding-left: 25px;
 }
 #animaux-autorises
 {
 	height: 30px;
 	width: 175px;
-	border: none;
 	border-top: 2px #f2f2f2 solid;
 	border-bottom: 2px #f2f2f2 solid;
 	border-right: 2px #f2f2f2 solid;
-	padding-left: 30px;
 	border-radius: 50px;
-	text-align: right;
 	font-weight: bold;
-}
-#filtre1, #filtre2, #filtre3, #filtre4
-{
-	display: flex;
 	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding-left: 25px;
+}
+#filtres
+{
+	margin-right: -30px;
 }
 #economique:hover, #famial:hover, #animaux-autorises:hover, #romantique:hover/*changer l'apparence des filtres au survol de la sourie*/
 {
@@ -279,8 +242,6 @@ article
 	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 100%;
-	
-	
 }
 .hebergement1
 {
@@ -291,9 +252,7 @@ article
 	margin-bottom: 20px;
 	box-shadow: 0px 1px 3px rgba(68, 35, 35, 0.3);
 	min-width: 30%;
-
 }
-
 #image1
 {
 	background-image: url(marcus-loke-WQJvWU_HZFo-unsplash.jpg);
@@ -433,7 +392,6 @@ aside
 	left: 5px;
 	border-bottom-left-radius: 10px;
 	border-top-left-radius: 10px;
-
 }
 #photo3
 {
@@ -607,8 +565,6 @@ footer
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
-	
 }
 @media all and (max-width: 900px) /*Sur tous les écrans, quand la largeur de la fenêtre fait au maximum 900px */
 {
@@ -621,7 +577,10 @@ footer
 		background: white;
 		width: 100%;
 	}
-	
+	#filtres
+	{
+		margin-bottom: -20px;
+	}
 	.hebergement1{
 		width: 100%;
 	}
@@ -699,37 +658,40 @@ footer
 	}
 	#entete
 	{
-		display: flex;
-		flex-wrap: wrap;
-		width: auto;
+		height: 120px;
+		align-items: center;
 	}
-	
-	.acti
-	{
-		padding-right: 15%;
-		padding-inline-start: 45px;
-		border-bottom: #f2f2f2 3px solid;
-	}
-	
 	#hebe
 	{
-		padding-inline-start: 40px;
-		padding-bottom: 10px;
-		border-bottom: #0065FC 3px solid;
+		display: flex;
+		align-self: flex-end;
+		width: 100%;
+	}
+	#mrd
+	{
+		margin-right: 20px;
+		margin-left: -90px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 5px;
+		width: 50%;
+		border-bottom: 2px #0065FC solid;
+	}
+	.acti
+	{
+		margin-left: -20px;
+		padding-left: 50px;
+		padding-right: 50px;
+		width: 50%;
+		border-bottom: 2px #f2f2f2 solid;
+	}
+	nav
+	{
+		height: 120px;
+		align-items: center;
 	}
 	.sincr
 	{
-		position: relative;
-		bottom: 53px;
-		right: 27%;
-		
-		
+		margin-left: -110px;
 	}
-	
-	
 }
-
-
-
-
-
