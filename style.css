@@ -43,7 +43,7 @@ nav a
 	color: #0065FC;
 	font-weight: bold;
 }
-.acti:hover, .sincr:hover, #mrd:hover
+.acti:hover, #mrd:hover
 {
 	border-top: 2px  #0065FC solid;
 	
@@ -359,7 +359,7 @@ aside
 	display: flex;
 	flex-direction: column;
 }
-#selection
+section
 {
 	display: flex;
 	justify-content: space-between;
@@ -551,7 +551,7 @@ footer
 }
 @media all and (max-width: 1150px) /*Sur tous les écrans, quand la largeur de la fenêtre fait au maximum 1150px */
 {
-	#selection{
+	section{
 		display: flex;
 		flex-direction: column-reverse;
 	justify-content: space-between;
@@ -566,10 +566,18 @@ footer
 		margin-right: auto;
 	}
 }
-@media all and (max-width: 900px) /*Sur tous les écrans, quand la largeur de la fenêtre fait au maximum 900px */
+@media all and (max-width: 700px) /*Sur tous les écrans, quand la largeur de la fenêtre fait au maximum 900px */
 {
 	#recherche, #forme1{
 		width: auto;
+	}
+	.acti:hover, #mrd:hover
+	{
+		border-top: none;
+	}
+	#forme1
+	{
+		justify-content: center;
 	}
 	
 	article
@@ -614,7 +622,8 @@ footer
 	    border: none;
 	    height: 40px;
 	    width: 50px;
-	    border-radius: 10px;
+		border-radius: 10px;
+		display: ;
 	}
 	#localisation
 	{
@@ -672,7 +681,7 @@ footer
 		margin-right: 20px;
 		margin-left: -90px;
 		padding-left: 30px;
-		padding-right: 30px;
+		padding-right: 10px;
 		padding-bottom: 5px;
 		width: 50%;
 		border-bottom: 2px #0065FC solid;
@@ -682,7 +691,7 @@ footer
 		margin-left: -20px;
 		padding-left: 50px;
 		padding-right: 50px;
-		width: 50%;
+		width: 15%;
 		border-bottom: 2px #f2f2f2 solid;
 	}
 	nav
@@ -692,6 +701,6 @@ footer
 	}
 	.sincr
 	{
-		margin-left: -110px;
+		margin-left: -115px;
 	}
 }
